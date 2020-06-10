@@ -1,0 +1,98 @@
+@font-face{
+    font-family: "oswald";
+    src: url(/css/fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: 500;
+}
+@font-face{
+    font-family: "oswald-light";
+    src: url(/css/fonts/Oswald-VariableFont_wght.ttf);
+    font-weight: 200;
+}
+
+html {
+    background-color: #eeeeee;
+}
+h1 {
+    color: crimson;
+    font-family: "oswald-light";
+    text-align: center;
+}
+h2 {
+    color: blueviolet;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+h3 {
+    text-align: justify;
+    text-transform: uppercase;
+    line-height: normal;
+    line-height: 20px;
+    font-weight: 100;
+}
+#sajtburger {
+    width: 100px;
+}
+#burgermenu {
+    width: 200px;
+}
+p {
+    color: darkgray;
+    font-size: 24px;
+}
+.bold {font-weight: bold;}
+
+.content {
+    text-align: justify;
+    color:darkred;
+}
+
+.img-div {
+    background-color: deepskyblue;
+}
+
+.light {
+    background-color: rgba(250, 150, 50, 0.5);
+}
+
+img {
+    width: 15%;
+    margin: 1%;
+    border:solid 1px black;
+    box-shadow: 3px 3px 10px darkblue;
+}
+
+#img-1 {
+    position: relative;
+    top: 20px;
+    left: 20px
+}
+
+.login-div{padding:15px; background-color:cadetblue;border:1px solid;}
+.login-div input {display:block; margin-bottom:7px;}
+.login-div input[class^=green] {
+    border: solid 3px green
+    }
+.login-div input[class$=red]{
+    border: solid 3px red
+}
+input[class*=control]{
+    display: block;
+}
+
+.login-div button:hover {
+    box-shadow: 2px 2px 3px #cccccc
+}
+
+.login-div input:focus {
+    box-shadow: 2px 2px 3px #cccccc;
+    border: none;
+}
+
+ul li:last-child{
+    font-weight: bold;
+    color: green
+}
+ul li:nth-child(2){
+    font-weight: bold;
+    color: red
+}
