@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <ul>
         <li><a href="/index.html">Főoldal</a></li>
@@ -14,5 +16,50 @@
     </ul>
     <h1>Orders</h1>
     <a href="/pages/products.html">Produlcts oldal</a>
+    <div class="container">
+        <form action="">
+            <fieldset>
+                <legend>Személyes adatok</legend>
+                <div>
+                    <label for="name">Név: *</label>
+                    <input type="text" name="name" id="name" required>
+                </div>
+                <div>
+                    <label for="email">Email: *</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="address">Cím: *</label>
+                    <input type="text" name="address" id="address" required>
+                </div>
+                <div>
+                    <label for="comment">Megjegyzés: *</label>
+                    <textarea name="comment" id="comment" cols="7" rows="10"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Termék adatok</legend>
+
+                <span>Extra feltét</span>
+                <div>
+                    <input type="radio" value="300" name="extra" id="nothing" checked>
+                    <label for="nothing">Nem kérek</label>
+                </div>
+                <div>
+                    <input type="radio" value="300" name="extra" id="chease" checked>
+                    <label for="chease">Sajt</label>
+                </div>
+                <div>
+                    <input type="radio" value="300" name="extra" id="double-chease" checked>
+                    <label for="double-chease">Dupla sajt</label>
+                </div>
+                <div>
+                    <input type="radio" value="300" name="extra" id="double-double" checked>
+                    <label for="double-double">Fullextrás</label>
+                </div>
+            </fieldset>
+        </form>
+    </div>
 </body>
+
 </html>

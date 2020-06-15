@@ -3,18 +3,59 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Az első oldalam</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="lib/bootstrap-4.5.0-dist/bootstrap-4.5.0-dist/css/bootstrap.min.css">
+    <title>Főoldal</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/index.html">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">Rólunk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/pages/orders.html">Rendelés</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="rov">
+            <div class="col">
+                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-secondary">Secondary</button>
+                <button type="button" class="btn btn-success">Success</button>
+                <button type="button" class="btn btn-danger">Danger</button>
+                <button type="button" class="btn btn-warning">Warning</button>
+                <button type="button" class="btn btn-info">Info</button>
+                <button type="button" class="btn btn-light">Light</button>
+                <button type="button" class="btn btn-dark">Dark</button>
+
+                <button type="button" class="btn btn-link">Link</button>
+            </div>
+        </div>
+    </div>
+
     <ul>
         <li><a href="/index.html">Főoldal</a></li>
         <li><a href="/pages/orders.html">Rendelés</a></li>
         <li><a href="/pages/products.html">Termékek</a></li>
         <li><a href="/about.html">Rólunk</a></li>
     </ul>
+
+
 
     <h1>Fatasztikus hambik / Fantastic Burgers</h1>
     <h2>A legjobb hambik egy helyen.</h2>
